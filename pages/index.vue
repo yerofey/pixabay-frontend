@@ -2,7 +2,7 @@
 	<div class="p-6 max-w-3xl mx-auto space-y-6">
 		<UCard>
 			<template #header>
-				<h1 class="text-2xl font-bold">Pixabay Image Feed</h1>
+				<h1 class="text-2xl font-bold">Pixabay App</h1>
 			</template>
 
 			<UForm @submit.prevent="createFeed(query)" class="space-y-4">
